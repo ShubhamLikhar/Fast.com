@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.w24 {
+    width: 24px;
+}
+.w40 {
+    width: 40px;
+}
+.w-90 {
+    width: 90px;
+}
+.w-150 {
+    width: 150px;
+}
+.w-200 {
+    width: 200px !important;
+}
+.h24 {
+    height: 24px;
+}
+.h34 {
+    height: 34px;
+}
+.h40 {
+    height: 40px;
+}
+.h-88 {
+    height: 88px;
+}
+.h-130 {
+    height: 130px;
+}
+.h-180 {
+    height: 180px !important;
+}
+.h-200 {
+    height: 200px !important;
+}
+.h-225 {
+    height: 225px;
+}
+.h-400 {
+    height: 400px;
+}
+.text-red,.text-hvr:hover {
+    color: #F9453C !important;
+}
+.text-boatanchor {
+    color: #6B6B6B;
+}
+.bg-red,.bg-hvr:hover {
+    background: #F9453C !important;
+}
+.wolfram-bg {
+    background: #B6B6B6;
+}
+.clearvision-bg {
+    background: #E6EEF6;
+}
+.wizard-white-bg {
+    background: #E4F2FF;
+}
+.ghost-white-bg {
+    background: #F9F7FF !important;
+}
+.wolfram-shadow {
+    box-shadow: 0 0 20px #83BDF7;
+}
+.white-overlay-bg {
+    background: rgba(255,255,255,.2) !important;
+}
+.red-overlay-bg {
+    background: rgba(249,69,60,.2) !important;
+}
+.whatsapp-bg {
+    background: #25D366;
+}
+.font10 {
+    font-size: 10px;
+}
+.font12 {
+    font-size: 12px;
+}
+.valign-middle {
+    vertical-align: middle;
+}
+.text-left {
+    text-align: left;
+}
+.decorate-none {
+    text-decoration: none;
+}
+.border-dashed-red {
+    border: 1px dashed #F9453C;
+}
+.border-red {
+    border: 1px solid #F9453C !important;
+}
+.border-top-red {
+    border-top: 1px solid #F9453C !important;
+}
+.border-bottom-red {
+    border-bottom: 1px solid #F9453C !important;
+}
+.border10-snowcloud {
+    border: 10px solid #E5E9EC;
+}
+.int-shadow-focus:focus {
+    box-shadow: none;
+}
+.slt-outline-focusvisible:focus-visible {
+    outline: 0;
+}
+.bdr-white-before::before,.bdr-white-after::after,
+.bdr-black-before::before,.bdr-black-after::after {
+    width: 35px;
+    height: 1px;
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+}
+.bdr-white-before::before,
+.bdr-black-before::before {
+    top: 18px;
+    /* right: 0; */
+    left: -50px;
+}
+.bdr-white-after::after,
+.bdr-black-after::after {
+    top: 18px;
+    right: -50px;
+    /* left: 0; */
+}
+.bdr-white-before::before,.bdr-white-after::after {
+    background-color: #fff;    
+}
+.bdr-black-before::before,.bdr-black-after::after {
+    background-color: #6B6B6B;    
+}
+.object-cover {
+    object-fit: cover;
+}
+.object-top {
+    object-position: top;
+}
+.deocrate-none {
+    text-decoration: none;
+}
+.btn-hvr:hover {
+    font-weight: 600;
+    background: #fff !important;
+    color: #F9453C !important;
+}
+.resize-none {
+    resize: none;
+}
+.transition3 {
+    transition: all .3s ease-in-out;
+}
+.rotate45 {
+    transform: rotate(-45deg);
+}
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+@media (min-width: 992px) {
+    .w-15 {
+        width: 15% !important;
+    }
+}
+@media (max-width: 767px) {
+    .text-center-md {
+        text-align: center;
+    }
+    .justify-center-md {
+        justify-content: center;
+    }
+}
+
+/* Navbar */
+.nav-lnk {
+    font-size: 14px;
+    color: #555;
+    transition: all .3s ease-in-out;
+}
+.nav-lnk:hover {
+    background: #F9453C;
+    color: #fff;
+}
+.srch-icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.nav-item:hover {
+    border: 0;
+}
+/* Navbar */
+
+
+/* Tab */
+.tab-lnk {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0.7rem;
+    padding: 0 2rem;
+    border: 0;
+    background: rgba(255,255,255,.2) !important;
+    border-radius: 2rem !important;
+}
+.tab-lnk:hover,.tab-lnk:focus {
+    color: #fff;
+    border: 0;
+}
+.tab-lnk.active {
+    color: #F9453C !important;
+    background: #fff !important;
+}
+.tab-lnk2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #686868;
+    margin: 0.7rem;
+    padding: 0 2rem;
+    border: 0;
+    background: rgba(249,69,60,.2) !important;
+    border-radius: 2rem !important;
+}
+.tab-lnk2:hover,.tab-lnk2:focus {
+    color: #686868;
+    border: 0;
+}
+.tab-lnk2.active {
+    color: #fff !important;
+    background: #F9453C !important;
+}
+/* Tab */
+
+.vtab-lnk.active {
+    background: rgba(249,69,60,.1) !important;
+    color: #F9453C !important;
+}
+
+.wizard-shadow {
+    box-shadow: 0 0 20px 5px #d3e7fa;
+}
+.position-col4 {
+    position: relative;
+    top: -54px;
+}
+.banner2 {
+    background: url("../img/banner2.jpg") no-repeat 30% 100% / cover;
+}
+.checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+}
+.checkbox-bg:checked+.checkbox-cont {
+    background: rgba(249,69,60,.1);
+}
+.checkbox-bg:checked+.validity-price {
+    background: rgba(249,69,60,.1);
+}
+
+.int-rad {
+	opacity: 0; /* hidden but still tabable */
+	position: absolute;
+}
+/* @media (max-width: 1199px) {
+	.material-icons {
+		max-width: 330px;
+	}
+} */
+/* .material-icons {
+	transition: all 0.3s ease-in-out;
+} */
+/* .material-icons:hover {
+	transform: scale(1.1);
+} */
+.int-rad + .plan-parnt {
+	border-radius: 0 40px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+.int-rad:checked + .plan-parnt {
+	background-color: #0e2558;
+}
+.int-rad:checked + .plan-parnt .plan-heading,
+.int-rad:checked + .plan-parnt li {
+	color: #fff !important;
+}
+
+.whatsapp-position {
+    top: -16px;
+    left: -10px;
+}
+.int-slt:checked+.value-slt {
+    background: #F9453C;
+    color: #fff;
+}
+
+/* .focus-item .owl-item.center .item {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+} */
+
+/* Form */
+.form-bg-position {
+    position: relative;
+    top: -85px;
+}
+/* Form */
+
+/* FOOTER */
+.icon-lnk {
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    color: #F9453C;
+    background: rgba(255,51,41,.1);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.icon-lnk:hover {
+    background: #F9453C;
+    color: #fff;
+}
+
+/* FOOTER */

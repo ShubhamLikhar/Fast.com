@@ -1,0 +1,106 @@
+/* Click the image one by one to see the different layout */
+
+/* Owl Carousel */
+.owl-stage-outer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.owl-prev {
+  background: url('../img/arrow-left.svg') 6px center no-repeat;
+  background-size: 17px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  z-index: 1000;
+  left: -4%;
+  cursor: pointer;
+  color: transparent;
+  margin-top: -27px;
+  border-radius: 50%;
+}
+.owl-next {
+  background: url('../img/arrow-right.svg') 6px center no-repeat;
+  background-size: 17px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  z-index: 1000;
+  right: -4%;
+  cursor: pointer;
+  color: transparent;
+  margin-top: -27px;
+  border-radius: 50%;
+}
+.bg-red .owl-prev,.bg-red .owl-next {
+  background-color: #fff;
+}
+.ghost-white-bg .owl-prev,.ghost-white-bg .owl-next,
+.bg-white .owl-prev,.bg-white .owl-next {
+  background-color: rgba(249,69,60,.2);
+}
+/* .owl-prev:hover,
+.owl-next:hover {
+  opacity: 0.5;
+} */
+/* Owl Carousel */
+
+/* Popup Text */
+.white-popup-block {
+  background: #FFF;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative;
+}
+.popuptext {
+  display: table;
+}
+.popuptext p {
+  margin-bottom: 10px;
+}
+.popuptext span {
+  font-weight: bold;
+  float: right;
+}
+/* Popup Text */
+
+/* Icon CSS */
+.item {
+  position: relative;
+}			
+.item a:hover:before {
+  content: "";
+  /* background: rgba(0, 0, 0, 0.5); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+/* Focus Image */
+.focus-item .owl-item.center .item {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+/* .item i {
+  display: none;
+  font-size: 4rem;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+} */
+/* .item a {
+  display: block;
+  width: 100%;
+} */
+/* .item a:hover i {
+  display: block;
+  z-index: 2;
+} */
